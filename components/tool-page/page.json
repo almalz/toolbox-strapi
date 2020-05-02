@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_tool_page_pages",
+  "info": {
+    "name": "page",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "introduction": {
+      "type": "richtext",
+      "default": "This needs to be replaced",
+      "required": true,
+      "private": false
+    },
+    "personal_use": {
+      "type": "richtext",
+      "default": "This needs to be replaced"
+    }
+  }
+}
